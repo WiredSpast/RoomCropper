@@ -2,6 +2,7 @@ package extensions.roomcropper;
 
 import gearth.extensions.Extension;
 import gearth.extensions.ExtensionInfo;
+import gearth.extensions.extra.tools.PacketInfoSupport;
 import gearth.protocol.HMessage;
 import gearth.protocol.HPacket;
 import org.apache.commons.lang3.StringUtils;
@@ -16,7 +17,7 @@ import java.util.List;
 @ExtensionInfo(
         Title = "RoomCropper",
         Description = "Crop floorplans to occupied tiles",
-        Version = "0.1",
+        Version = "0.2",
         Author = "WiredSpast"
 )
 
